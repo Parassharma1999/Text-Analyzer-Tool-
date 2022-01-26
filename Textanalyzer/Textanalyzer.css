@@ -1,0 +1,59 @@
+.container {
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(26, 26, 83);
+  background-color: aqua;
+  border: none;
+  width: 150px;
+  height: 40px;
+  border-radius: 20px;
+  align-self: center;
+  margin: 10px;
+}
+
+
+.Main {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  height: 500px;
+  border: 5px solid cyan;
+  border-radius: 40px;
+  background-color: rgb(26, 26, 83);
+}
+
+h1 {
+  color: aqua;
+  margin-top: 0px;
+  text-align: center;
+  font-size: 50px;
+}
+
+.Textanalyzer {
+  font-size: 15px;
+  background-color: rgb(80, 80, 109);
+  resize: none;
+  display: flex;
+  flex-direction: column;
+  border: none;
+  color: cyan;
+  outline: none;
+  margin: 0px 10px 0px 10px;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+button:hover{
+    cursor:pointer;
+    background-color: rgba(8, 255, 255, 0.808);
+}
